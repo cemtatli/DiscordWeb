@@ -545,16 +545,6 @@ img{
   margin-bottom: 2.5rem;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
 .mt-6 {
   margin-top: 1.5rem;
 }
@@ -587,20 +577,8 @@ img{
   height: 1.5rem;
 }
 
-.h-5 {
-  height: 1.25rem;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
 .h-8 {
   height: 2rem;
-}
-
-.h-screen {
-  height: 100vh;
 }
 
 .w-full {
@@ -689,14 +667,6 @@ img{
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
 .gap-1 {
   gap: 0.25rem;
 }
@@ -709,14 +679,6 @@ img{
   gap: 0.5rem;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
-.gap-4 {
-  gap: 1rem;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
@@ -727,11 +689,6 @@ img{
 
 .border-b {
   border-bottom-width: 1px;
-}
-
-.border-discord-blue {
-  --tw-border-opacity: 1;
-  border-color: rgb(46 93 229 / var(--tw-border-opacity));
 }
 
 .border-discord-blue\/80 {
@@ -762,24 +719,20 @@ img{
   background-color: transparent;
 }
 
-.bg-\[url\(\'\.\.\/images\/header\/mid\.svg\'\)\] {
-  background-image: url('../images/header/mid.svg');
+.bg-\[url\(\'\.\.\/public\/images\/header\/mid\.svg\'\)\] {
+  background-image: url('../public/images/header/mid.svg');
 }
 
-.bg-\[url\(\'\.\.\/images\/main\/section-5\.svg\'\)\] {
-  background-image: url('../images/main/section-5.svg');
+.bg-\[url\(\'\.\.\/public\/images\/main\/section-5\.svg\'\)\] {
+  background-image: url('../public/images/main/section-5.svg');
 }
 
-.bg-\[url\(\'\.\.\/images\/footer\/mid\.svg\'\)\] {
-  background-image: url('../images/footer/mid.svg');
+.bg-\[url\(\'\.\/public\/images\/main\/section-5\.svg\'\)\] {
+  background-image: url('./public/images/main/section-5.svg');
 }
 
-.bg-\[url\(\'\.\.\/images\/footer\/flag\.svg\'\)\] {
-  background-image: url('../images/footer/flag.svg');
-}
-
-.bg-\[url\(\'\.\.\/images\/footer\/flag\.png\'\)\] {
-  background-image: url('../images/footer/flag.png');
+.bg-\[url\(\'\.\/images\/main\/section-5\.svg\'\)\] {
+  background-image: url('./images/main/section-5.svg');
 }
 
 .bg-center {
@@ -837,19 +790,9 @@ img{
   padding-bottom: 1rem;
 }
 
-.py-\[80\] {
-  padding-top: 80;
-  padding-bottom: 80;
-}
-
 .py-\[80px\] {
   padding-top: 80px;
   padding-bottom: 80px;
-}
-
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
 }
 
 .py-10 {
@@ -947,24 +890,8 @@ img{
   line-height: 38px;
 }
 
-.leading-5 {
-  line-height: 1.25rem;
-}
-
 .tracking-wider {
   letter-spacing: 0.05em;
-}
-
-.tracking-widest {
-  letter-spacing: 0.1em;
-}
-
-.-tracking-wide {
-  letter-spacing: -0.025em;
-}
-
-.-tracking-widest {
-  letter-spacing: -0.1em;
 }
 
 .tracking-wide {
@@ -1016,11 +943,6 @@ img{
 .hover\:text-discord-blue:hover {
   --tw-text-opacity: 1;
   color: rgb(46 93 229 / var(--tw-text-opacity));
-}
-
-.hover\:text-discord-btn-hover-2:hover {
-  --tw-text-opacity: 1;
-  color: rgb(114 139 238 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
