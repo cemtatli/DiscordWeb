@@ -734,6 +734,10 @@ img{
   border-color: rgb(46 93 229 / var(--tw-border-opacity));
 }
 
+.border-discord-blue\/80 {
+  border-color: rgb(46 93 229 / 0.8);
+}
+
 .bg-discord-blue {
   --tw-bg-opacity: 1;
   background-color: rgb(46 93 229 / var(--tw-bg-opacity));
