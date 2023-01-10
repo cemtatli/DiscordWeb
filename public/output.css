@@ -433,6 +433,12 @@ img{
           user-select: none;
 }
 
+#header-body{
+  background-image: url(./images/header/mid.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -717,18 +723,6 @@ img{
 
 .bg-transparent {
   background-color: transparent;
-}
-
-.bg-\[url\(\'\.\.\/public\/images\/header\/mid\.svg\'\)\] {
-  background-image: url('../public/images/header/mid.svg');
-}
-
-.bg-\[url\(\'\.\.\/public\/images\/main\/section-5\.svg\'\)\] {
-  background-image: url('../public/images/main/section-5.svg');
-}
-
-.bg-\[url\(\'\.\/public\/images\/main\/section-5\.svg\'\)\] {
-  background-image: url('./public/images/main/section-5.svg');
 }
 
 .bg-\[url\(\'\.\/images\/main\/section-5\.svg\'\)\] {

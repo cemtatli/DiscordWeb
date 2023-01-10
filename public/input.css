@@ -12,4 +12,9 @@
     img{
         user-select: none;
     }
+    #header-body{
+        background-image: url(./images/header/mid.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }
