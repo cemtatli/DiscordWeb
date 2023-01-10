@@ -9,4 +9,7 @@
     body{
         font-family: 'Satoshi', sans-serif;
     }
+    img{
+        user-select: none;
+    }
 }

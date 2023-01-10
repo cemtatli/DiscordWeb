@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         "discord-blue": "#2e5de5",
         "discord-black": "#24282E",
+        "discord-white": "#f6f6f6",
         "discord-btn-hover": "#36393e",
         "discord-btn-hover-2": "#728bee",
       },
