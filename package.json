@@ -65,8 +65,8 @@
     "xtend": "^4.0.2"
   },
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ../src/output.css",
-    "watch": "npx tailwindcss -i ./src/input.css -o ../src/output.css --watch"
+    "build": "npx tailwindcss -i ./public/input.css -o ../public/output.css",
+    "watch": "npx tailwindcss -i ./input.css -o ../output.css --watch"
   },
   "keywords": [],
   "author": "cemtatli",
