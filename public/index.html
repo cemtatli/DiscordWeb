@@ -13,13 +13,13 @@
         rel="stylesheet">
 </head>
 
-<body class="w-full h-scre">
+<body class="w-full h-screen bg-discord-white">
     <!-- Header -->
     <header class="flex items-center justify-center w-full bg-discord-blue flex-col">
         <!-- !Container Fluid -->
-        <div class="w-container mx-auto items-center flex ">
-            <div class="w-full flex items-center justify-between h-20 ">
-                <!-- Logo -->
+        <div class="xl:w-container w-full xl:mx-auto m-0 items-center flex">
+            <div class="w-full flex items-center justify-between h-20 max-lg:px-8">
+                <!--Header Logo -->
                 <div class="cursor-pointer ">
                     <svg width="124" height="34" viewBox="0 0 124 34" class="logo-3oeRIY">
                         <g fill="#fff">
@@ -53,8 +53,8 @@
                         </g>
                     </svg>
                 </div>
-                <!-- Menu -->
-                <li class="list-none flex flex-1 justify-center items-center gap-1">
+                <!--Header Menu -->
+                <li class="list-none flex flex-1 justify-center items-center max-lg:hidden">
                     <a href="#"
                         class="text-white font-semibold text-base p-2.5 m-2.5 cursor-pointer hover:underline transition-colors">Download</a>
                     <a href="#"
@@ -70,27 +70,37 @@
                     <a href="#"
                         class="text-white font-semibold text-base p-2.5 m-2.5 cursor-pointer hover:underline transition-colors">Nitro</a>
                 </li>
-                <!-- Button -->
+                <!-- Header Button -->
                 <button
                     class="bg-white block rounded-full text-sm font-medium py-2 px-4 cursor-pointer text-discord-black hover:text-discord-blue hover:shadow-lg hover:shadow-black/20">
                     Open Discord
                 </button>
             </div>
         </div>
-        <div id="header-body" class="w-full flex px-10">
-            <div class="flex flex-1 justify-end items-end" id="deneme2"><img src="./images/header/left.svg"
+        <!-- Header Body -->
+        <div id="header-body" class="w-full flex px-10 max-lg:p-0 max-md:bg-none ">
+            <!-- L -->
+            <div class="flex justify-end items-end max-xl:hidden"><img src="./images/header/left.svg"
                     class="w-full select-none" alt="discord">
             </div>
-            <div class="flex flex-col items-center justify-center w-[800px] py-[120px]">
-                <h2 class="text-6xl  font-black font-tanker text-white tracking-wider select-none">IMAGINE A PLACE...
+            <!-- Main -->
+            <div
+                class="flex flex-col items-center max-lg:items-start max-lg:justify-start max-lg:px-8 justify-center w-[800px] py-[120px]">
+                <!-- Title -->
+                <h2
+                    class="text-6xl max-lg:text-5xl max-lg:text-start font-black font-tanker text-white tracking-wider select-none">
+                    IMAGINE A PLACE...
                 </h2>
-                <p class="text-white max-w-[95%] text-center text-xl my-10">
+                <!-- Text -->
+                <p class="text-white max-w-[95%] text-center text-xl my-10 max-lg:text-start max-md:text-lg">
                     ...where you can belong to a school club, a gaming group, or a worldwide art community. Where just
                     you and a handful of friends can spend time together. A place that makes it easy to talk every day
                     and hang out more often.
                 </p>
-                <div class="flex gap-6"><button
-                        class="text-xl font-medium py-3 px-8 flex items-center justify-center text-center cursor-pointer text-discord-black bg-white rounded-3xl hover:text-discord-blue transition-colors">
+                <!-- Button -->
+                <div class="flex gap-6 max-md:flex-col max-md:justify-center max-md:items-start">
+                    <button class="text-xl font-medium py-3 px-8 flex items-center justify-center text-center cursor-pointer text-discord-black 
+                        bg-white rounded-3xl hover:text-discord-blue transition-colors">
                         <svg width="24" height="24" viewBox="0 0 24 24" class="pr-1.5 w-6 h-6">
                             <g fill="currentColor">
                                 <path
@@ -103,67 +113,86 @@
                         </svg>Download
                         for Windows</button>
                     <button
-                        class="text-xl font-medium py-3 px-8 flex items-center justify-center text-center cursor-pointer text-white bg-discord-black rounded-3xl hover:bg-discord-btn-hover transition-all">Open
+                        class="text-xl font-medium py-3 px-8 flex items-center justify-center text-center 
+                        cursor-pointer text-white bg-discord-black rounded-3xl hover:bg-discord-btn-hover transition-all">Open
                         Discord in your browser</button>
                 </div>
             </div>
-            <div class="flex flex-1  justify-end items-end" id="deneme2"><img src="./images/header/right.svg"
+            <!-- R -->
+            <div class="flex justify-end items-end max-xl:hidden" id="deneme2"><img src="./images/header/right.svg"
                     class="w-full" alt="discord">
             </div>
         </div>
     </header>
     <!-- Main -->
-    <main class="bg-discord-white">
+    <main>
         <!-- !Container Fluid -->
-        <div class="w-container mx-auto items-center flex flex-col pb-[120px]">
+        <div class="xl:w-container w-full mx-auto items-center flex flex-col xl:pb-[120px] ">
             <!-- Section 1 -->
-            <div class="flex justify-between items-center w-full py-[120px] px-10">
-                <div class="flex flex-1  justify-start items-start"><img src="./images/main/section-1.svg"
-                        alt="discord">
+            <div
+                class="flex max-md:flex-col max-md:justify-center justify-between items-center w-full py-[120px] max-md:gap-4 max-md:py-16 max-md:px-8 px-10">
+                <div class="flex flex-1 justify-start items-start max-sm:flex-auto"><img
+                        src="./images/main/section-1.svg" alt="discord">
                 </div>
-                <div class="flex flex-col justify-end items-end w-[400px]">
-                    <h3 class="text-5xl font-extrabold  leading-[58px] text-discord-black">Create an
+                <div class="flex flex-col justify-end items-end max-w-[400px]">
+                    <h3 class="text-5xl max-md:text-3xl font-extrabold leading-[58px] text-discord-black ">Create an
                         invite-only place
                         where you belong
                     </h3>
-                    <p class="text-xl text-discord-black mt-6">Discord servers are organized into topic-based channels
+                    <p class="text-xl  max-md:text-lg text-discord-black mt-6">Discord servers are organized into
+                        topic-based channels
                         where
                         you can collaborate, share, and
                         just talk about your day without clogging up a group chat.</p>
                 </div>
             </div>
             <!-- Section 2 -->
-            <div class="flex justify-between items-center w-full py-[120px] px-10 ">
-                <div class="flex flex-col justify-center items-center w-[400px]">
-                    <h3 class="text-5xl font-extrabold  leading-[58px] text-discord-black">Where hanging out is easy
+            <div
+                class="flex max-md:flex-col-reverse max-md:justify-center justify-between items-center w-full py-[120px]  max-md:gap-4 max-md:py-16 max-md:px-6 px-10 ">
+                <div class="flex flex-col justify-center items-center max-w-[400px] max-md:text-center">
+                    <h3
+                        class="text-5xl font-extrabold max-md:text-3xl  leading-[58px] text-discord-black max-md:text-center">
+                        Where
+                        hanging out is easy
                     </h3>
-                    <p class="text-xl text-discord-black mt-6">Grab a seat in a voice channel when you’re free. Friends
+                    <p class="text-xl  max-md:text-lg text-discord-black mt-6">Grab a seat in a voice channel when
+                        you’re free. Friends
                         in your server can see you’re around and instantly pop in to talk without having to call.</p>
                 </div>
                 <div class="flex flex-1  justify-end items-end"><img src="./images/main/section-2.svg" alt="discord">
                 </div>
             </div>
             <!-- Section 3 -->
-            <div class="flex justify-between items-center w-full py-[120px] px-10 ">
+            <div
+                class="flex max-md:flex-col max-md:justify-center justify-between items-center w-full py-[120px]  max-md:gap-4 max-md:py-16 max-md:px-6 px-10 ">
                 <div class="flex flex-1  justify-start items-start"><img src="./images/main/section-3.svg"
                         alt="discord">
                 </div>
                 <div class="flex flex-col justify-end items-end w-[400px]">
-                    <h3 class="text-5xl font-extrabold  leading-[58px] text-discord-black">From few to a fandom
+                    <h3
+                        class="text-5xl max-md:text-3xl font-extrabold max-md:text-center leading-[58px] text-discord-black">
+                        From few to a
+                        fandom
                     </h3>
-                    <p class="text-xl text-discord-black mt-6">Get any community running with moderation tools and
+                    <p class="text-xl max-md:text-lg text-discord-black mt-6">Get any community running with moderation
+                        tools and
                         custom member access. Give members special powers, set up private channels, and more.</p>
                 </div>
             </div>
             <!-- Section 4 -->
-            <div class="flex  justify-center items-center w-full pt-[120px] px-10 pb-20">
+            <div
+                class="flex max-md:flex-col max-md:justify-center  justify-center items-center w-full pt-[120px]  max-md:gap-4 max-md:py-16 max-md:px-6 px-10 pb-20">
                 <div class="flex flex-col text-center max-w-[980px] ">
-                    <h3 class="text-5xl font-extrabold font-tanker leading-[38px] text-discord-black uppercase">Reliable
+                    <h3
+                        class="text-5xl max-md:text-3xl font-extrabold font-tanker leading-[38px] text-discord-black uppercase">
+                        Reliable
                         tech for
                         Staying
                         Close
                     </h3>
-                    <p class="text-xl text-discord-black mt-8">Low-latency voice and video feels like you’re in the same
+                    <p class="text-xl  text-discord-black mt-8 max-md:text-lg">Low-latency voice and
+                        video feels like
+                        you’re in the same
                         room. Wave hello over video, watch friends stream their games, or gather up and have a drawing
                         session with screen share.</p>
                     <img src="./images/main/section-4.svg" alt="discord">
@@ -171,12 +200,12 @@
             </div>
             <!-- Section 5 -->
             <div
-                class="flex  justify-center items-center w-full bg-[url('./images/main/section-5.svg')] bg-no-repeat bg-center">
+                class="flex  justify-center items-center w-full bg-[url('./images/main/section-5.svg')]  max-md:gap-4 bg-no-repeat bg-center">
                 <div class="flex flex-col text-center ">
                     <h3 class="text-3xl font-bold leading-[38px] text-discord-black">Ready to
                         start your journey?
                     </h3> <button
-                        class="text-xl font-medium py-4 px-8 mt-10 flex items-center justify-center text-center cursor-pointer text-white bg-discord-blue rounded-3xl hover:bg-discord-btn-hover-2 transition-all hover:shadow-lg hover:shadow-black/30">
+                        class="text-xl font-medium py-4 px-8 mt-10 flex items-center justify-center max-md:my-8 text-center cursor-pointer text-white bg-discord-blue rounded-3xl hover:bg-discord-btn-hover-2 transition-all hover:shadow-lg hover:shadow-black/30">
                         <svg width="24" height="24" viewBox="0 0 24 24" class="pr-1.5 w-6 h-6">
                             <g fill="currentColor">
                                 <path
@@ -194,8 +223,8 @@
     </main>
     <!-- Footer -->
     <footer class="w-full bg-discord-black">
-        <div class="w-container mx-auto  flex flex-row py-[80px] border-b border-discord-blue/80">
-            <div class="flex flex-col w-[400px]">
+        <div class="xl:w-container w-full mx-auto flex flex-row py-[80px] border-b border-discord-blue/80">
+            <div class="flex flex-col w-[400px] max-md:w-full flex-wrap">
                 <h3 class="text-discord-blue font-bold text-3xl font-tanker mb-4 tracking-wide ">IMAGINE A PLACE
                 </h3>
                 <select name="#" id="#"
@@ -208,7 +237,7 @@
                     <option value="Turkce" class="bg-transparent p-1 text-discord-black">Türkçe</option>
                     <option value="Turkce" class="bg-transparent p-1 text-discord-black">Türkçe</option>
                 </select>
-                <li class="flex list-none gap-6">
+                <li class="flex list-none gap-6 ">
                     <a href="https://www.linkedin.com/in/cemtatli/" target="_blank"><svg width="24" height="24"
                             viewBox="0 0 24 24" class="cursor-pointer">
                             <path fill="#f6f6f6"
@@ -220,7 +249,6 @@
                             <g fill="#f6f6f6">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M11.9969 2.00632C9.28187 2.00632 8.94143 2.01783 7.87516 2.06648C6.81111 2.11501 6.0844 2.28402 5.44853 2.53116C4.79115 2.78659 4.23365 3.12842 3.67786 3.68417C3.1221 4.23997 2.78028 4.79747 2.52484 5.45485C2.2777 6.09072 2.10869 6.81743 2.06016 7.88148C2.01151 8.94775 2 9.28818 2 12.0032C2 14.7181 2.01151 15.0586 2.06016 16.1249C2.10869 17.1889 2.2777 17.9156 2.52484 18.5515C2.78028 19.2089 3.1221 19.7664 3.67786 20.3222C4.23365 20.8779 4.79115 21.2197 5.44853 21.4752C6.0844 21.7223 6.81111 21.8913 7.87516 21.9398C8.94143 21.9885 9.28187 22 11.9969 22C14.7118 22 15.0523 21.9885 16.1185 21.9398C17.1826 21.8913 17.9093 21.7223 18.5452 21.4752C19.2025 21.2197 19.76 20.8779 20.3158 20.3222C20.8716 19.7664 21.2134 19.2089 21.4689 18.5515C21.716 17.9156 21.885 17.1889 21.9335 16.1249C21.9822 15.0586 21.9937 14.7181 21.9937 12.0032C21.9937 9.28818 21.9822 8.94775 21.9335 7.88148C21.885 6.81743 21.716 6.09072 21.4689 5.45485C21.2134 4.79747 20.8716 4.23997 20.3158 3.68417C19.76 3.12842 19.2025 2.78659 18.5452 2.53116C17.9093 2.28402 17.1826 2.11501 16.1185 2.06648C15.0523 2.01783 14.7118 2.00632 11.9969 2.00632ZM11.9969 3.80755C14.6661 3.80755 14.9823 3.81775 16.0364 3.86584C17.0111 3.91029 17.5404 4.07314 17.8927 4.21005C18.3593 4.3914 18.6923 4.60802 19.0421 4.95786C19.392 5.30767 19.6086 5.64068 19.79 6.10731C19.9269 6.45957 20.0897 6.9889 20.1342 7.96358C20.1823 9.01771 20.1925 9.3339 20.1925 12.0032C20.1925 14.6724 20.1823 14.9886 20.1342 16.0427C20.0897 17.0174 19.9269 17.5468 19.79 17.899C19.6086 18.3656 19.392 18.6987 19.0421 19.0485C18.6923 19.3983 18.3593 19.6149 17.8927 19.7963C17.5404 19.9332 17.0111 20.096 16.0364 20.1405C14.9825 20.1886 14.6663 20.1988 11.9969 20.1988C9.32738 20.1988 9.01127 20.1886 7.95726 20.1405C6.98258 20.096 6.45325 19.9332 6.10099 19.7963C5.63437 19.6149 5.30135 19.3983 4.95155 19.0485C4.60175 18.6987 4.38508 18.3656 4.20373 17.899C4.06683 17.5468 3.90397 17.0174 3.85952 16.0427C3.81143 14.9886 3.80123 14.6724 3.80123 12.0032C3.80123 9.3339 3.81143 9.01771 3.85952 7.96358C3.90397 6.9889 4.06683 6.45957 4.20373 6.10731C4.38508 5.64068 4.60171 5.30767 4.95155 4.95786C5.30135 4.60802 5.63437 4.3914 6.10099 4.21005C6.45325 4.07314 6.98258 3.91029 7.95726 3.86584C9.01139 3.81775 9.32758 3.80755 11.9969 3.80755Z">
-                                </path>
                                 </path>
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M11.9968 15.3355C10.1564 15.3355 8.66451 13.8435 8.66451 12.0032C8.66451 10.1628 10.1564 8.67089 11.9968 8.67089C13.8372 8.67089 15.3291 10.1628 15.3291 12.0032C15.3291 13.8435 13.8372 15.3355 11.9968 15.3355ZM11.9968 6.86966C9.16161 6.86966 6.86328 9.16799 6.86328 12.0032C6.86328 14.8384 9.16161 17.1367 11.9968 17.1367C14.832 17.1367 17.1303 14.8384 17.1303 12.0032C17.1303 9.16799 14.832 6.86966 11.9968 6.86966Z">
@@ -234,7 +262,7 @@
                             viewBox="0 0 24 24" class="cursor-pointer">
                             <path fill="#f6f6f6"
                                 d="M20.875 2H3.09375C2.46875 2 2 2.5 2 3.09375V20.875C2 21.5 2.5 21.9687 3.09375 21.9687H12.6875V14.2188H10.0625V11.1875H12.6562V8.96874C12.6562 6.375 14.2187 4.96875 16.5312 4.96875C17.625 4.96875 18.5937 5.0625 18.875 5.09375V7.78125H17.2812C16.0312 7.78125 15.7812 8.375 15.7812 9.25V11.1875H18.7812L18.4062 14.25H15.8125V22H20.9062C21.5312 22 22 21.5 22 20.9062V3.125C22 2.46875 21.5 2 20.875 2Z"
-                                style=""></path>
+                                style="opacity: 1;"></path>
                         </svg></a>
                     <a class="" href="https://www.linkedin.com/in/cemtatli/" title="Discord on YouTube"
                         target="_blank"><svg width="24" height="24" viewBox="0 0 24 24" class="">
@@ -320,7 +348,7 @@
                 </li>
             </div>
         </div>
-        <div class="w-container mx-auto  flex flex-row py-10">
+        <div class="xl:w-container w-full mx-auto flex flex-row py-10 max-md:px-8">
             <!-- !Container Fluid -->
             <div class="flex justify-between items-center w-full">
                 <!-- Logo -->

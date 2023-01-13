@@ -5,16 +5,13 @@
 @layer base {
     html {
         scroll-behavior: smooth;
-      }
+}
     body{
-        font-family: 'Satoshi', sans-serif;
-    }
+        font-family: 'Satoshi', sans-serif;}
     img{
-        user-select: none;
-    }
+        user-select: none;}
     #header-body{
         background-image: url(./images/header/mid.svg);
         background-position: center;
-        background-repeat: no-repeat;
-    }
+        background-repeat: no-repeat;}
 }
